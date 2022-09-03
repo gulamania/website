@@ -1,0 +1,31 @@
+/*==================
+Variables & Fonts
+==================*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fs-xs: 0.75em;
+    --fs-s: 0.825em;
+    --fs-m: 1em;
+    --fs-l: 1.25em;
+    --fs-xl: 1.5em;
+    --fs-xxl: 2.5em;
+    --ff-title: "Nexa", Arial, sans-serif;
+    --ff-text: "Gotham", Arial, sans-serif;
+    --co-title: #1d1f2e;
+    --co-bg: #3f4047;
+    --co-bg-secondary: #ffffff;
+    --co-text: #505057;
+    --co-text-l: #757580;
+    --co-border: #95959f;
+}
+
+@font-face {
+    font-family: 'Lemonmilk';
+    src: url(fonts/LemonMilkRegular.otf);
+    font-weight: 500;
+}
